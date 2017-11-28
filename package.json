@@ -1,0 +1,30 @@
+{
+  "name": "es6.dev",
+  "version": "0.0.0",
+  "description": "Get the package",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\"",
+    "build:production": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h9warren/es6.git"
+  },
+  "keywords": [
+    "package"
+  ],
+  "author": "h9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h9warren/es6/issues"
+  },
+  "homepage": "https://github.com/h9warren/es6#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "jquery": "^3.2.1",
+    "webpack": "^3.8.1"
+  }
+}
